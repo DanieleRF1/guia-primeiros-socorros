@@ -34,6 +34,10 @@ Criar um site com utilidade social contendo informações de primeiros socorros,
 
 O projeto foi publicado utilizando GitHub Pages.
 
+## Link de acesso ao site
+
+https://danielerf1.github.io/guia-primeiros-socorros/
+
 ## Desenvolvedor
 
 Daniele Rodrigues Ferreira
