@@ -10,9 +10,14 @@ form.addEventListener("submit", (e) => {
     const mensagem = document.getElementById("mensagem");
 
     if (nome === "" || email === "") {
+
         mensagem.innerText = "Preencha todos os campos.";
+
     } else {
+
         mensagem.innerText = "Mensagem enviada com sucesso!";
+
+        form.reset();
     }
 
 });
