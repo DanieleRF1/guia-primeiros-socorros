@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eef4ff;
+    font-family: Arial;
+}
+
+.pagina {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.pagina h1 {
+    color: #0d6efd;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pagina p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info h2 {
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+.info ul {
+    list-style: none;
+}
+
+.info li {
+    margin-bottom: 15px;
+
+    padding: 15px;
+
+    background: #f5f7fa;
+
+    border-left: 5px solid #0d6efd;
+
+    border-radius: 10px;
+}
+
+.btn-voltar {
+    display: inline-block;
+
+    margin-top: 30px;
+
+    background: #0d6efd;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 20px;
+
+    border-radius: 10px;
+}
+
+.btn-voltar:hover {
+    opacity: 0.9;
+}

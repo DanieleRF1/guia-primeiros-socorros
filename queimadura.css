@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff4f4;
+    font-family: Arial;
+}
+
+.pagina {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.pagina h1 {
+    color: #dc3545;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info {
+    background: white;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.info h2 {
+    color: #dc3545;
+    margin-bottom: 20px;
+}
+
+.info li {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #dc3545;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn-voltar:hover {
+    opacity: 0.9;
+}
